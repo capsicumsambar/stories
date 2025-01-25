@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kids Stories</title>
+    <title>Kids Stories - Who Created the Mess?</title>
     <style>
       * {
         margin: 0;
@@ -83,12 +83,19 @@
 
       .story-image {
         width: 100%;
-        max-width: 800px;
+        max-width: 400px;
         height: auto;
         border-radius: 15px;
         margin: 2rem auto;
         display: block;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .image-container {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: wrap;
       }
 
       .story-content {
@@ -112,6 +119,11 @@
         margin-top: 2rem;
         font-size: 0.9rem;
         color: #666;
+      }
+
+      .dialog {
+        margin-bottom: 1rem;
+        padding-left: 1rem;
       }
 
       @media (max-width: 768px) {
@@ -139,50 +151,62 @@
     <nav class="sidebar">
       <h2>Stories</h2>
       <ul class="story-links">
-        <li><a href="index.html" class="active">The Missing Hamster</a></li>
-        <li><a href="mess.html">Who Created the Mess?</a></li>
+        <li><a href="index.html">The Missing Hamster</a></li>
+        <li><a href="mess.html" class="active">Who Created the Mess?</a></li>
       </ul>
     </nav>
 
     <div class="main-content">
       <div class="container">
         <header class="story-header">
-          <h1>The Missing Hamster</h1>
+          <h1>Who Created the Mess?</h1>
         </header>
-        <img
-          src="chintu.jpg.png"
-          alt="Three children discovering their missing hamster"
-          class="story-image"
-        />
+        <div class="image-container">
+          <img src="maitej.png" alt="Maiu and Teju" class="story-image" />
+          <img src="kalia.png" alt="Kalia the dog" class="story-image" />
+        </div>
         <div class="story-content">
+          <div class="dialog">"Who created this mess?" Appa asked Amma.</div>
+          <div class="dialog">"Not sure" said Amma.</div>
+          <p>Appa called Teju.</p>
+          <div class="dialog">
+            "Who created this huge mess - the clothes are all over the place!"
+          </div>
+          <div class="dialog">"I did not"</div>
+          <div class="dialog">"Go find out if Maiu did it"</div>
           <p>
-            The sun was shining brightly over the bustling city of Mumbai.
-            Ten-year-old Anika and her friends, Rohan and Jia, were playing in
-            the park near their apartment building. They were having a blast,
-            chasing each other around the banyan tree and making up silly games.
-            Anika had brought her pet hamster, Chintu, along in his little cage,
-            and he was happily munching on sunflower seeds, enjoying the fresh
-            air and sunshine. Nearby, a group of pigeons cooed and strutted,
-            hoping for a few crumbs to fall their way.
+            Teju goes to the backyard - "papa did you create the clothes mess"?
+          </p>
+          <div class="dialog">
+            "Of course I did not!" said a surprised Maiu, "perhaps Kalia did?"
+            And looked straight at Kalia who was near the backyard door
+          </div>
+          <p>
+            Kalia heard her name and ran to the front yard sneaking through the
+            unlocked door
+          </p>
+          <p>Appa decided to solve the mystery.</p>
+          <p>
+            He first called Teju "Go and take a look at the mess and tell me
+            what you see". Teju goes upstairs to the master bedroom. He does not
+            see any mess. "I do not see any mess" he reports back.
           </p>
           <p>
-            Suddenly, a loud crash echoed through the park. Anika, Rohan, and
-            Jia froze mid-game, their eyes wide with surprise. They turned to
-            find Chintu's cage lying on its side, the door wide open, and the
-            little hamster nowhere to be seen! Anika's heart pounded in her
-            chest. Where could Chintu have gone? Had he been hurt? What if a cat
-            had snatched him away?
+            Next Appa calls Maiu "Go and take a look at the mess and tell me
+            what you see". Maiu goes upstairs to the master bedroom. She too
+            reports back saying "I do not see any mess"
           </p>
           <p>
-            Rohan noticed a small, muddy puddle near the overturned cage.
-            "Look!" he exclaimed, pointing to a tiny paw print in the mud. "It's
-            too small for a cat, but too big for Chintu." Jia noticed some
-            scattered sunflower seeds near the puddle, but the trail disappeared
-            into the thick grass. "Chintu must have escaped," she said, "But
-            what made that paw print, and how did the cage fall over?" Anika
-            felt a wave of panic. They had to find Chintu before it was too
-            late! But what had happened? Yaar panna?
+            Appa calls Kalia "go check", Kalia runs up to the bedroom and checks
+            and runs back down and sits next to Appa looking for a treat.
           </p>
+          <p>
+            Appa calls Amma "can you please check the status of the mess?" Amma
+            goes up and checks the room and the closet and says "it very messy".
+          </p>
+          <p>The kids are surprised.</p>
+          <div class="dialog">Appa says "I know who created the mess".</div>
+          <p class="dialog" style="font-style: italic">How did Appa know?</p>
         </div>
         <footer class="footer">
           <p>© 2025 Kids Stories</p>
